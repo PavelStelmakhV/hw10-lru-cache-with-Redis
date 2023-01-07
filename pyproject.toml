@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw10-lru-cache-with-redis"
+version = "0.1.0"
+description = ""
+authors = ["PavelStelmakhV <stelmahpv13@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw10_lru_cache_with_redis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "^4.4.0"
+redis-lru = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
